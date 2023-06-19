@@ -1,0 +1,239 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family:'morpheus' ;
+    src: url('../fontes/MORPHEUS.TTF') format('truetype');
+    font-weight: normal;
+    font-family: 'cretino';
+    src: url('fonte/Cretino.otf') format('opentype');
+    font-weight: normal;
+}
+
+:root{
+    --cor0:#012340;
+    --cor1:#024873;
+    --cor2:#03658C;
+    --cor3:#04BFBF;
+    --cor4:#ADC5D9;
+    --cor5:white;
+    --cor6:black;
+    --fonte-padrão: Arial, verdana, helvetica, sans-serif;
+    --fonte-morpheus: 'morpheus', cursive; 
+    --fonte-cretino: 'cretino', cursive;
+}
+
+body{
+    background-image: url(imagens/Pastor\ sorrindo320.jpg);
+    background-position: left top;
+    background-size: 95vh;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin-right: -25px;
+    margin-left: -10px;
+    margin-bottom: 0px;
+}
+
+main{
+    background-color: var(--cor5);
+    max-width: 100vh;
+}
+
+.nave{
+    margin-left: 130px;
+    width: 345px;
+}
+
+button{
+    background-color: #03658C;
+    color: var(--cor5);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 2px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+img{
+    margin-top: -40px;
+    margin-left: -10px;
+}
+
+h2.minis{
+    background-color: var(--cor3);
+    color: var(--cor6);
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 150px;
+    margin-left: 60px;
+    width: 140px;
+    font-size: 1.8rem;
+    max-width: 180px;
+    margin-right: 10px;
+}
+
+h2{
+    color: var(--cor5);
+    max-width: 230px;
+    margin-left: 20px;
+    margin-top: -40px;
+    font-size: 1.8rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2#sete{
+    background-color: #012340;
+    margin-left: 20px;
+    margin-top: -40px;
+    font-size: 1.8rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2.igre{
+    background-color: var(--cor6);
+    color: var(--cor5);
+    max-width: 190px;
+    margin-left: 40px;
+    margin-top: -30px;
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+button.cultos{
+    margin-left: 45px;
+    margin-top: 5px;
+    padding: 3px;
+    width: 180px;
+    font-size: 0.8em;
+    font-weight: bold;
+    color: var(--cor5);
+    background-color:#03658C;
+}
+
+div.nome{
+    background-size: left top;
+    max-width: 360px;
+    margin-top: -15px;
+}
+
+a{
+    text-decoration: none;
+    color:var(--cor5);
+    margin: 5px;
+    transition-duration: 0.5s;
+}
+
+.logo>a:hover{
+    background-color:rgba(255, 255, 255, 0.562);
+    padding: 5px;
+    border: 2px;
+    border-color: var(--cor6);
+    border-radius: 5px;
+}
+
+p{
+    margin-bottom: 40px;
+}
+
+p.nom{
+    font-family: var(--fonte-cretino);
+    margin-top: -40px;
+    margin-left: 150px;
+    font-size: 1.3em;
+}
+
+div.texto{
+    background-color: var(--cor5);
+    text-align: center;
+    margin-top: 50px;
+}
+
+main > h3{
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 30px;
+    text-align: center;
+    font-size: 1.7em;
+    color:#024873;
+}
+
+main > p{
+    font-size: 1.6em;
+    text-align: center;
+    font-weight: bolder;
+    margin-top: -30px;
+}
+
+div.quadrado{
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 250px;
+    height: 250px;
+    margin-bottom: 0px;
+    margin-left: 20vh;
+}
+
+button.quadrado{
+    margin-top: 0px;
+    margin-left: 35vh;
+    margin-bottom: 40px;
+    background-color: #03658C;
+    color: var(--cor5);
+
+}
+
+button.quadrado2{
+    margin-top: 0px;
+    margin-left: 30vh;
+    margin-bottom: 40px;
+    background-color: #03658C;
+    color: var(--cor5);
+
+}
+
+div.quadrado#Q1{
+    background-image: url(imagens/biblia.jpg);
+    background-position: center top;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+div.quadrado#Q2{
+    background-image: url(imagens/voluntário-de-tecnologia-da-igreja.jpg);
+    background-position: center top;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+div.quadrado#Q3{
+    background-image: url(imagens/oração.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+div.quadrado#Q4{
+    background-image: url(imagens/louvor.jpg);
+    background-position: center top;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+div.quadrado#Q5{
+    background-image: url(imagens/membros.jpg);
+    background-position: center top;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+div#Q5 > a{
+    color: var(--cor5);
+    background-color: var(--cor6);
+}
+
+div.quadrado#Q6{
+    background-image: url(imagens/manutenção.jpg);
+    background-position: center top;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+div#Q6 > a{
+    color: var(--cor6);
+    background-color: var(--cor5);
+}
