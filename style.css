@@ -15,8 +15,6 @@
     --cor2:#03658C;
     --cor3:#04BFBF;
     --cor4:#ADC5D9;
-    --cor5:white;
-    --cor6:black;
     --fonte-padrão: Arial, verdana, helvetica, sans-serif;
     --fonte-morpheus: 'morpheus', cursive; 
     --fonte-cretino: 'cretino', cursive;
@@ -34,32 +32,47 @@ body{
 }
 
 main{
-    background-color: var(--cor5);
+    background-color: white;
     max-width: 100vh;
 }
 
-.nave{
-    margin-left: 130px;
-    width: 345px;
+div{
+    width: 30px;
+    height: 4px;
+    background-color: white;
+    margin: 5px 0px;
+  }
+
+button.nav{
+    background-color:transparent;
+    margin-top: 20px;
+    margin-left: 420px;
 }
 
-button{
-    background-color: #03658C;
-    color: var(--cor5);
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    padding: 2px;
-    padding-left: 0px;
-    padding-right: 0px;
+.botao-menu-mobile{
+    font-size: 45px;
+    cursor: pointer;
+    color: black;
+}
+
+nav.mobile > ul{
+    top: 80px;
+    z-index: 3px;
+    position: absolute;
+    left: 0px;
+    width: 100%;
+    display: none;
+    text-align: center;
 }
 
 img{
-    margin-top: -40px;
+    margin-top: -75px;
     margin-left: -10px;
 }
 
 h2.minis{
     background-color: var(--cor3);
-    color: var(--cor6);
+    color: black;
     font-family: Arial, Helvetica, sans-serif;
     margin-top: 150px;
     margin-left: 60px;
@@ -70,7 +83,7 @@ h2.minis{
 }
 
 h2{
-    color: var(--cor5);
+    color: white;
     max-width: 230px;
     margin-left: 20px;
     margin-top: -40px;
@@ -87,8 +100,8 @@ h2#sete{
 }
 
 h2.igre{
-    background-color: var(--cor6);
-    color: var(--cor5);
+    background-color: black;
+    color: white;
     max-width: 190px;
     margin-left: 40px;
     margin-top: -30px;
@@ -103,7 +116,7 @@ button.cultos{
     width: 180px;
     font-size: 0.8em;
     font-weight: bold;
-    color: var(--cor5);
+    color: white;
     background-color:#03658C;
 }
 
@@ -115,16 +128,16 @@ div.nome{
 
 a{
     text-decoration: none;
-    color:var(--cor5);
+    color: white;
     margin: 5px;
     transition-duration: 0.5s;
 }
 
-.logo>a:hover{
+ul>a:hover{
     background-color:rgba(255, 255, 255, 0.562);
     padding: 5px;
     border: 2px;
-    border-color: var(--cor6);
+    border-color: black;
     border-radius: 5px;
 }
 
@@ -140,7 +153,7 @@ p.nom{
 }
 
 div.texto{
-    background-color: var(--cor5);
+    background-color: white;
     text-align: center;
     margin-top: 50px;
 }
@@ -223,8 +236,8 @@ div.quadrado#Q5{
 }
 
 div#Q5 > a{
-    color: var(--cor5);
-    background-color: var(--cor6);
+    color: white;
+    background-color: black;
 }
 
 div.quadrado#Q6{
@@ -234,6 +247,6 @@ div.quadrado#Q6{
     background-repeat: no-repeat;
 }
 div#Q6 > a{
-    color: var(--cor6);
-    background-color: var(--cor5);
+    color: black;
+    background-color: white;
 }
