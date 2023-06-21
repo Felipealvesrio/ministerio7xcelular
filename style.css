@@ -38,18 +38,17 @@ main{
     max-width: 100vh;
 }
 
-.nave{
-    margin-left: 130px;
-    width: 345px;
-}
+div{
+    width: 30px;
+    height: 4px;
+    background-color: white;
+    margin: 5px 0px;
+  }
 
-button{
-    background-color: #03658C;
-    color: var(--cor5);
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    padding: 2px;
-    padding-left: 0px;
-    padding-right: 0px;
+button.nav{
+    background-color:transparent;
+    margin-top: 20px;
+    margin-left: 420px;
 }
 
 img{
