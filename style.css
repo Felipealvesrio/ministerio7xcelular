@@ -306,19 +306,23 @@ button.quadrado3{
 }
 
 .qua{
-    margin-top: 150px;
+    margin-top: 170px;
     margin-left: 20px;
-    margin-bottom: 40px;
-    font-size: 1.2em;
+    margin-bottom: 30px;
+    font-size: 1em;
+    font-family: var(--fonte-padrão);
+    font-weight: bold;
     color: white;
 
 }
 
 .qua2{
-    margin-top: 150px;
+    margin-top: 170px;
     margin-left: 20px;
-    margin-bottom: 40px;
-    font-size: 1.2em;
+    margin-bottom: 30px;
+    font-size: 1em;
+    font-weight: bold;
+    font-family: var(--fonte-padrão);
     color: black;
 }
 
