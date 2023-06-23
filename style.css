@@ -21,7 +21,7 @@
 }
 
 body{
-    background-image: url(imagens/Pastor\ sorrindo300.jpg);
+    background-image: url(imagens/Pastor\ sorrindo280.jpg);
     background-position: left top;
     background-size: 80vh;
     background-repeat: no-repeat;
@@ -34,7 +34,7 @@ body{
 main{
     margin-top: 100px;
     background-color: white;
-    max-width: 90vh;
+    width: 100%;
 }
 
 .top-nav { 
@@ -43,7 +43,7 @@ main{
     justify-content: space-between;
     height: 50px; 
     padding: 25px; 
-    margin-left: -20px;
+    margin-left: 0px;
 }
 
 .menu { 
@@ -87,7 +87,7 @@ main{
 } 
 
 .menu-button{
-    margin-left: -70px;
+    margin-left: -40px;
     margin-top: -20px;
 }
 
