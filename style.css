@@ -274,7 +274,7 @@ button.quadrado{
     border-radius: 20px;
     border: none;
     width: 130px;
-    background-color: #03658C;
+    background-color: #03658cc7;
     color: white;
 }
 
@@ -287,7 +287,7 @@ button.quadrado2{
     border-radius: 30px;
     border: none;
     width: 130px;
-    background-color: #03658C;
+    background-color: #03658cb4;
     color: white;
 
 }
@@ -301,7 +301,7 @@ button.quadrado3{
     border-radius: 30px;
     border: none;
     width: 130px;
-    background-color: #03658C;
+    background-color: #03658ce0;
     color: white;
 }
 
@@ -376,4 +376,21 @@ div.quadrado#Q6{
 div#Q6 > a{
     color: black;
     background-color: white;
+}
+
+.ende{
+    background-color: var(--cor4);
+    margin-top: 30px;
+    text-align: center;
+    height: 380px;
+    margin-bottom: 40px;
+    padding-top: 20px;
+    color: black;
+}
+
+.endep{
+    font-size: 1.5em;
+    font-family: var(--fonte-padrão);
+    font-weight: bold;
+    color: #03658C;
 }
