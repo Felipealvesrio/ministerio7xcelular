@@ -129,7 +129,7 @@ main{
     border: 1px solid #333;
     width: 130px;
     height: 1em;
-    margin-left: 55px; 
+    margin-left: 170px; 
     padding: 0.7em; 
     transition: height 400ms cubic-bezier(0.23, 1, 0.32, 1); 
 }
