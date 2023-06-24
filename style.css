@@ -32,9 +32,9 @@ body{
 }
 
 main{
-    margin-top: 152px;
+    margin-top: 154px;
     background-color: white;
-    width: 86.2vh;
+    width: 90vh;
 }
 
 .top-nav { 
@@ -87,7 +87,7 @@ main{
 } 
 
 .menu-button{
-    margin-left: -40px;
+    margin-left: -20px;
     margin-top: -20px;
 }
 
@@ -268,7 +268,7 @@ div.quadrado{
     height: 275px;
     margin-top: 30px;
     margin-bottom: 30px;
-    margin-left: 6vh;
+    margin-left: 10vh;
     margin-right: 4.3vh;
 }
 
