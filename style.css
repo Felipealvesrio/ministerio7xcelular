@@ -34,7 +34,7 @@ body{
 main{
     margin-top: 154px;
     background-color: white;
-    width: 85vh;
+    width: 84vh;
 }
 
 .top-nav { 
@@ -274,26 +274,24 @@ div.quadrado{
 
 button.quadrado{
     font-weight: bold;
-    font-size: medium;
     margin-top: -60px;
     margin-left: 5vh;
-    padding: 15px;
+    padding: 10px;
     border-radius: 20px;
     border: none;
-    width: 130px;
+    width: 110px;
     background-color: #03658cc7;
     color: white;
 }
 
 button.quadrado2{
     font-weight: bold;
-    font-size: medium;
     margin-top: -60px;
     margin-left: 5vh;
-    padding: 15px;
+    padding: 10px;
     border-radius: 30px;
     border: none;
-    width: 130px;
+    width: 110px;
     background-color: #03658cb4;
     color: white;
 
@@ -301,13 +299,12 @@ button.quadrado2{
 
 button.quadrado3{
     font-weight: bold;
-    font-size: medium;
     margin-top: 197px;
     margin-left: 5vh;
-    padding: 15px;
+    padding: 10px;
     border-radius: 30px;
     border: none;
-    width: 130px;
+    width: 110px;
     background-color: #03658ce0;
     color: white;
 }
