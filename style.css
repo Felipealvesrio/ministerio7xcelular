@@ -23,7 +23,7 @@
 body{
     background-image: url(imagens/Pastor\ sorrindo280.jpg);
     background-position: left top;
-    background-size: 80vh;
+    background-size: 85vh;
     background-repeat: no-repeat;
     background-attachment: fixed;
     margin-right: -25px;
@@ -87,7 +87,7 @@ main{
 } 
 
 .menu-button{
-   background-position: top right;
+   margin-block-end: auto;
    margin-top: -20px;
 }
 
