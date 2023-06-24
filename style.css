@@ -32,9 +32,9 @@ body{
 }
 
 main{
-    margin-top: 200px;
+    margin-top: 180px;
     background-color: white;
-    width: 100%;
+    width: 100vh;
 }
 
 .top-nav { 
